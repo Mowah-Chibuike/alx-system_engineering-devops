@@ -6,4 +6,5 @@
 #The 5-listfilesdigitonly script lists all the files including hidden files in the current directory in long format with users and group ID displayed numerically 
 #The 6-firstdirectory script creates a directory in tmp folder 
 #The 7-movethatfile script moves the betty file from the tmp folder and puts it in the my_first_directory folder in the tmp folder
+#The 8-firstdelete script deletes the betty file from the my_first_directory folder in the tmp folder
 
