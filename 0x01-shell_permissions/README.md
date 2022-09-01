@@ -7,4 +7,5 @@
 #The 6-multiple_permissions adds execution rights to the owner and the group owner, adds read permission to other users
 #The 7-everybody script adds execute permission to the owner, the group owner and other users
 #The 8-James_Bond script removes all permissions from owner, from the group and sets other users to have all permissions
+#the 9-John_Doe script changes the mode of the hello file to -rwxr-x-wx
 
