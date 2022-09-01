@@ -8,4 +8,5 @@
 #The 7-everybody script adds execute permission to the owner, the group owner and other users
 #The 8-James_Bond script removes all permissions from owner, from the group and sets other users to have all permissions
 #the 9-John_Doe script changes the mode of the hello file to -rwxr-x-wx
+#The 10-mirror_permissions script changes the mode of the hello file to take of the mode of olleh file
 
