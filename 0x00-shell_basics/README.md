@@ -13,4 +13,5 @@
 #The 12-file_type script prints the type of file name iamafile located in the /tmp folder 
 #The 13-symbolic_link script creates a symbolic link to /bin/ls file
 #The 14-copy_html script copies all html files in the current directory to the parent directory of the current directory
+#The 100-lets_move script moves all files beginning with a capital letter to /tmp/u directory
 
