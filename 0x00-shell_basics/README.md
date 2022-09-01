@@ -16,4 +16,5 @@
 #The 100-lets_move script moves all files beginning with a capital letter to /tmp/u directory
 #The 101-clean_emacs script deletes all emacs file(files ending with '~')
 #The 102-tree script create the /welcome, /welcome/to and /welcome/to/school in the current directory
+#The 103-commas script seperates the listed files with commas, indicates the directories with slashes, sorts the filesby digits and numbers with digits coming first
 
