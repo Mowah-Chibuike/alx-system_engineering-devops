@@ -12,4 +12,5 @@
 #The 11-lists script lists all the files including the hidden files in the current directory, the parent directory and the /boot directory in long format
 #The 12-file_type script prints the type of file name iamafile located in the /tmp folder 
 #The 13-symbolic_link script creates a symbolic link to /bin/ls file
+#The 14-copy_html script copies all html files in the current directory to the parent directory of the current directory
 
