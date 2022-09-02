@@ -13,4 +13,5 @@
 #The 12-directory_permissions script creates a folder called my_dir and sets its file permissions to 751
 #The 13-change_group script changes the hello file's group owner to school
 #The 100-change_owner_and_group script changes the owner and group owner of all the files and directories in the working directory
+#The 101-symbolic_link_permissions script changes the owner and the group owner of \_hello to vincent and staff respectively.
 
