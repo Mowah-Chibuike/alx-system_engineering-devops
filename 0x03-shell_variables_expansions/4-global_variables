@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv
+echo -e "HTBN=$(printenv | wc -l)\n" | wc -l
