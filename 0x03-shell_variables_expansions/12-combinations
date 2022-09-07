@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z}{a..z}"\n"|grep -vE 'oo|^[[:space:]]*$'
+echo -e {a..z}{a..z}"\n"|tr -d ' '|grep -vE 'oo|^[[:space:]]*$'
