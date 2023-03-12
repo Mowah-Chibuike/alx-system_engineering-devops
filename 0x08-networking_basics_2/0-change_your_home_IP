@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# configures an Ubuntu server with the below requirements.
+# Requirements:
+#	localhost resolves to 127.0.0.2
+#	facebook.com resolves to 8.8.8.8.
+
+cp /etc/hosts ~/test_hosts
+sed -i '/localhost/Id' ~/test_hosts
+echo "127.0.0.2	localhost" >> ~/test_hosts
+sed -i '/facebook.com/Id' ~/test_hosts
+echo "8.8.8.8	facebook.com" >> ~/test_hosts
+cat ~/test_hosts > /etc/hosts
