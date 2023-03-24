@@ -8,3 +8,4 @@
 
 ## Tasks
 - 0-create_a_file.pp: creates a file in /tmp.
+- 1-install_a_package.pp: installs flask from pip3.
