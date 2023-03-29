@@ -27,3 +27,4 @@
 ### Mandatory
 - 0-transfer_file: a Bash script that transfers a file from our client to a server.
 - 1-install_nginx_web_server: a Bash Script that installs and sets up nginx on a server
+- 2-setup_a_domain_name: contains the project's registered domain name
