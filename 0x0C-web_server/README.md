@@ -29,3 +29,4 @@
 - 1-install_nginx_web_server: a Bash Script that installs and sets up nginx on a server
 - 2-setup_a_domain_name: contains the project's registered domain name
 - 3-redirection: configures a Nginx server so that /redirect_me is redirecting to another page.
+- 4-not_found_page_404: Configure a Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page
