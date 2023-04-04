@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on a server.
+
+
+sudo apt-get update
+sudo apt-get install haproxy -y
+sudo chmod "666" /etc/default/haproxy
+sudo echo "ENABLED=1" >> /etc/default/haproxy
+sudo chmod "666" /etc/haproxy/haproxy.cfg
+sudo echo -e "\nfrontend mctimmy\n\tbind *:80\n\tmode http\n\tdefault_backend allservers\n" >> /etc/haproxy/haproxy.cfg
+sudo echo -e "\nbackend allservers\n\tmode http\n\tbalance roundrobin\n\tserver web1 3.90.84.91:80 check\n\tserver web2 3.84.237.141:80 check" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
