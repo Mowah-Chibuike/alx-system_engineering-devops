@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sudo apt-get update
+sudo apt-get install nginx -y
+sudo apt-get install fuser -y
+fuser -k 80/tcp
+sudo service nginx restart
