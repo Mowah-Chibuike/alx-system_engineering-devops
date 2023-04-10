@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# setup and configures nginx on an ubuntu machine
 
 sudo apt-get update
 sudo apt-get install nginx -y
